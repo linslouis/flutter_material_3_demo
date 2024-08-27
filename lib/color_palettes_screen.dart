@@ -227,12 +227,12 @@ class ColorSchemeView extends StatelessWidget {
           children: [
             ColorChip(
                 label: 'background',
-                color: colorScheme.background,
-                onColor: colorScheme.onBackground),
+                color: colorScheme.surface,
+                onColor: colorScheme.onSurface),
             ColorChip(
                 label: 'onBackground',
-                color: colorScheme.onBackground,
-                onColor: colorScheme.background),
+                color: colorScheme.onSurface,
+                onColor: colorScheme.onSurface),
           ],
         ),
         divider,
